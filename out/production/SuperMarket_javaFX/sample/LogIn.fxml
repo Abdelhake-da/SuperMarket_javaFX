@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="375.0" prefWidth="502.0" style="-fx-background-color: #000; -fx-border-color: #CCC;" stylesheets="@../style/button.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.LogInController">
+    <children>
+        <AnchorPane layoutX="171.0" prefHeight="375.0" prefWidth="332.0" style="-fx-background-color: #FFF;" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+            <children>
+                <Button layoutX="70.0" layoutY="265.0" mnemonicParsing="false" onMouseClicked="#login" text="LOGIN">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Button>
+                <Button layoutX="190.0" layoutY="265.0" mnemonicParsing="false" onMouseClicked="#exit" prefHeight="43.0" prefWidth="86.4" text="EXIT">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Button>
+                <Label layoutX="87.0" layoutY="1.0" text="LOGIN PAGE">
+                    <font>
+                        <Font name="System Bold" size="28.0" />
+                    </font>
+                </Label>
+                <Label layoutX="21.0" layoutY="177.0" text="USER NAME : ">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="24.0" layoutY="224.0" text="PASSWORD : ">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="user" layoutX="144.0" layoutY="179.0" prefHeight="26.0" prefWidth="166.0" />
+                <TextField fx:id="pw" layoutX="144.0" layoutY="226.0" prefHeight="26.0" prefWidth="166.0" />
+                <Label layoutX="49.0" layoutY="138.0" text="ROLE : ">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <ChoiceBox fx:id="Crole" layoutX="117.0" layoutY="138.0" prefHeight="26.0" prefWidth="166.0" />
+                <Label layoutX="140.0" layoutY="325.0" text="CREATE BY : MR_ABDELHAKE">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="101.0" fitWidth="91.0" layoutX="134.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../IMAGE/image.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="131.0" fitWidth="150.0" layoutX="5.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../IMAGE/image1.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="24.0" layoutY="193.0" text="Family Point" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="15.0" layoutY="246.0" text="Every Product" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="23.0" layoutY="299.0" text="Nice Service" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

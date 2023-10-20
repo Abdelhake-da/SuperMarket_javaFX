@@ -1,0 +1,33 @@
+.button{
+    -fx-border-color: #000;
+    -fx-border-radius: 15;
+    -fx-background-color: #FFF;
+    
+}
+.button:hover {
+    -fx-background-color: #000;
+    -fx-background-radius: 15;
+    -fx-text-fill: #FFF;
+}
+.lbButton:hover{
+    -fx-text-fill: rgb(199, 146, 0);
+}
+.choice-box{
+    -fx-background-color: #FFF;
+}
+.table-view .column-header {
+    -fx-background-color: #222;
+
+}
+.table-view .label{
+    -fx-text-fill: #FFF;
+}
+.placeholder .lable{
+    -fx-text-fill: #FFF;
+}
+.choice-box{
+    -fx-border-color: #AAA;
+}
+.text-field{
+    -fx-border-color: #AAA;
+}

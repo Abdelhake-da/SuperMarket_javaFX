@@ -1,0 +1,4 @@
+================ FAMILY POINT ================
+ NUM PRODUCT                QUANTITIY    TOTAL
+   1 MAXON(700G)                    1    280.0
+                              Total : 280.0
